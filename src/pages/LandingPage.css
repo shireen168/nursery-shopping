@@ -1,0 +1,59 @@
+.landing-page {
+  height: 100vh;
+  width: 100%;
+  background-image: url('../assets/images/nursery-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.landing-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.landing-content {
+  max-width: 800px;
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.landing-content h1 {
+  font-size: 3rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.landing-content p {
+  font-size: 1.1rem;
+  color: #34495e;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.get-started-btn {
+  display: inline-block;
+  background-color: #27ae60;
+  color: white;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.get-started-btn:hover {
+  background-color: #2ecc71;
+}
