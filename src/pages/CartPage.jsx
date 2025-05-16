@@ -36,8 +36,12 @@ const CartPage = () => {
         ) : (
           <>
             <div className="cart-summary">
-              <p>Total Items: <span>{totalQuantity}</span></p>
-              <p>Total Cost: <span>${totalAmount.toFixed(2)}</span></p>
+              <div className="summary-item">
+                <p>Total Items: <span>{totalQuantity}</span></p>
+              </div>
+              <div className="summary-item">
+                <p>Total Cost: <span>${totalAmount.toFixed(2)}</span></p>
+              </div>
             </div>
             
             <div className="cart-items">

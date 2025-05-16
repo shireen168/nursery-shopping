@@ -5,7 +5,7 @@ const plants = [
     name: "Peace Lily",
     price: 24.99,
     category: "Indoor Plants",
-    image: "/images/peace-lily.jpg",
+    image: "https://images.pexels.com/photos/4751969/pexels-photo-4751969.jpeg?auto=compress&cs=tinysrgb&w=800",
     description: "Beautiful flowering plant that purifies air"
   },
   {
@@ -13,7 +13,7 @@ const plants = [
     name: "Snake Plant",
     price: 19.99,
     category: "Indoor Plants",
-    image: "/images/snake-plant.jpg",
+    image: "https://images.pexels.com/photos/2123482/pexels-photo-2123482.jpeg?auto=compress&cs=tinysrgb&w=800",
     description: "Low maintenance plant with striking upright leaves"
   },
   
@@ -23,7 +23,7 @@ const plants = [
     name: "Aloe Vera",
     price: 15.99,
     category: "Succulents",
-    image: "/images/aloe-vera.jpg",
+    image: "https://images.pexels.com/photos/4505161/pexels-photo-4505161.jpeg?auto=compress&cs=tinysrgb&w=800",
     description: "Medicinal plant with thick, fleshy leaves"
   },
   {
@@ -31,7 +31,7 @@ const plants = [
     name: "Echeveria",
     price: 12.99,
     category: "Succulents",
-    image: "/images/echeveria.jpg",
+    image: "https://images.pexels.com/photos/1470171/pexels-photo-1470171.jpeg?auto=compress&cs=tinysrgb&w=800",
     description: "Rosette-forming succulent with beautiful colors"
   },
   
@@ -41,7 +41,7 @@ const plants = [
     name: "Pothos",
     price: 18.99,
     category: "Hanging Plants",
-    image: "/images/pothos.jpg",
+    image: "https://images.pexels.com/photos/1084199/pexels-photo-1084199.jpeg?auto=compress&cs=tinysrgb&w=800",
     description: "Trailing vine with heart-shaped leaves"
   },
   {
@@ -49,7 +49,7 @@ const plants = [
     name: "Spider Plant",
     price: 16.99,
     category: "Hanging Plants",
-    image: "/images/spider-plant.jpg",
+    image: "https://images.pexels.com/photos/1445419/pexels-photo-1445419.jpeg?auto=compress&cs=tinysrgb&w=800",
     description: "Air-purifying plant with arching leaves"
   }
 ];

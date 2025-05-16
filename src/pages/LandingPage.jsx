@@ -5,9 +5,10 @@ import './LandingPage.css';
 const LandingPage = () => {
   return (
     <div className="landing-page">
+      <div className="landing-overlay"></div>
       <div className="landing-content">
-        <h1>Paradise Nursery</h1>
-        <p>
+        <h1 className="landing-title">Paradise Nursery</h1>
+        <p className="landing-description">
           Welcome to Paradise Nursery, your one-stop destination for beautiful, healthy houseplants. 
           We specialize in a wide variety of indoor plants, succulents, and hanging plants that bring 
           life and freshness to your home or office. Our plants are carefully grown and nurtured to 

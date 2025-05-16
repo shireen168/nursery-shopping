@@ -4,12 +4,17 @@ import { addItem } from '../redux/CartSlice';
 import plants from '../data/plants';
 import './ProductsPage.css';
 
+// Ensure all plants are properly categorized
+const allCategories = [...new Set(plants.map(plant => plant.category))];
+// Make sure we have all three categories
+console.log('Available categories:', allCategories);
+
 const ProductsPage = () => {
   const dispatch = useDispatch();
   const { items } = useSelector(state => state.cart);
   
-  // Group plants by category
-  const categories = [...new Set(plants.map(plant => plant.category))];
+  // Ensure all three categories are displayed in the correct order
+  const categories = ["Indoor Plants", "Succulents", "Hanging Plants"];
   
   const handleAddToCart = (plant) => {
     dispatch(addItem(plant));
@@ -22,7 +27,7 @@ const ProductsPage = () => {
   return (
     <div className="products-page">
       <div className="container">
-        <h1>Our Plants</h1>
+        <h1 className="main-title">Our Plants</h1>
         
         {categories.map(category => (
           <div key={category} className="category-section">
